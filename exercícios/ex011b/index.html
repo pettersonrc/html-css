@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminui o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/minhafoto-300x.jpg" type="image/jpg">
+        <source media="(max-width: 827px)" srcset="imagens/minhafoto-517x.jpg" type="image/jpg">
+        <img src="imagens/minhafoto-800x.jpg" alt="Minha foto dinâmica">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <audio autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não possui suporte para áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o áudio MP3</a></p>
+    </audio>
+</body>
+</html>

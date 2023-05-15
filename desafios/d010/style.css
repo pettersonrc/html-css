@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+#titulo-principal {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Barlow Condensed';
+    margin-top: 0px;
+}
+
+header > p {
+    font: normal 1em 'Barlow Condensed';
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header {
+    background-image: linear-gradient(to top, #166141 85%, #34E096);
+    background-attachment: fixed;
+    height: 189px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.555);
+    
+}
+
+nav {
+    color: white;
+    padding-top: 16px;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#lista-menu {
+    padding: 0%;
+}
+
+.menu {
+    display: inline;
+    margin: 10px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.link-texto {
+    text-decoration: none;
+    color: #166141;
+    font-weight: bold;
+}
+
+.texto-negrito {
+    color: #166141;
+}
+
+.menu > a {
+    color: white;
+}
+
+.menu > a:active {
+    color: black;
+}
+
+
+body {
+    background-color: #63E6AD;
+    margin: 0%;
+}
+
+main {
+    margin: auto;
+    margin-top: 1px;
+    width: 1000px;
+}
+
+#titulo-sessao {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+    font: 1.7em 'android';
+    color: #166141;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 10px;
+    font: 1em arial;
+}
+
+.titulo-artigo {
+    font: 1.5em 'android';
+    padding-left: 10px;
+    color: #166141;
+    background-color: #63e6ad44 ;
+}
+
+section {
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 9px 9px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.527);
+}
+
+aside {
+    margin: 0px 20px;
+    background-color: #9addc0b9;
+    border-radius: 7px 7px 7px 7px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.603);
+}
+
+#titulo-a-parte {
+    background-color: #1fc97fa6;
+    height: 20px;
+    padding: 10px;
+    font: bold 1em arial;
+    color: white;
+    border-radius: 7px 7px 7px 7px;
+}
+
+#lista-a-parte {
+    text-decoration: underline;
+}
+
+aside > p {
+    font: normal 1em arial;
+}
+
+footer {
+    background-color: #166141;
+    color: white;
+    height: 37px;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 9px;
+}
+
+footer > strong {
+    color: white;
+}
+
+footer > a {
+    color: white;
+}
+
+#link-cev {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+#166141 verde escuro
+#63E6AD verde claro
+#34E096 verde mais escuro que o claro
+#48715F verde mais escuro que o escuro
+#28AD74 verde médio
