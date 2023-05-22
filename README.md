@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://pettersonrc.github.io/html-css/desafios/d010b/android.html#">Executar o desafio 10</a>
+<a href="https://pettersonrc.github.io/html-css/desafios/d010b/android.html#" target="_blank">Executar o desafio 10</a>
