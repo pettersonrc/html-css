@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-texto: 'Sriracha';
+    --fonte-titulo: 'Passion One';
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: black;
+    min-height: 200px;
+    margin-bottom: 100px;
+}
+
+#titulo-principal {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font: 400 4em var(--fonte-titulo);
+}
+
+#paragrafo-titulo {
+    color: white;
+    text-align: center;
+    font: 400 1.3em var(--fonte-titulo);
+}
+
+#paragrafo-titulo > a {
+    text-decoration: none;
+}
+
+#paragrafo-titulo > a:hover {
+    text-decoration: underline;
+}
+
+#paragrafo-titulo > a:visited {
+    color: white;
+}
+
+/* Sessões */
+
+section {
+    padding-left: 25px;
+}
+
+p {
+    font-family: var(--fonte-texto);
+    font-size: 1.7em;
+    text-align: justify;
+}
+
+#flor {
+    background-image: url('imagens/background001.jpg');
+}
+
+#livro {
+    background-image: url('imagens/background002.jpg');
+}
+
+article {
+    background: rgba(0, 0, 0, 0.199);
+}
