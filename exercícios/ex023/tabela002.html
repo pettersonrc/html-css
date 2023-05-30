@@ -13,6 +13,7 @@
         table {
             width: 300px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -31,6 +32,12 @@
         thead, tfoot {
             background-color: rgb(70, 69, 69);
             color: white;
+        }
+
+        thead> tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(70, 69, 69);
         }
 
         tbody > tr:nth-child(odd) {
@@ -168,6 +175,7 @@
                 <td class="numero"><strong>210 147 125</strong></td>
             </tr>
         </tfoot>
-    </table>  
+    </table>
+    
 </body>
 </html>
