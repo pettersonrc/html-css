@@ -1,5 +1,0 @@
-#1b3d37 verde escuro
-#7BE0CE verde claro
-#E0B070 cor de pele
-#3B4694 roxo escuro
-#6574E0 roxo claro
